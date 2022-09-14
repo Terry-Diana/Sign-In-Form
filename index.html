@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
+      integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/combine/npm/purecss@2.1.0/build/base-min.css,npm/purecss@2.1.0/build/grids-min.css,npm/purecss@2.1.0/build/forms-min.css"
+    />
+
+    <title>Sign-In</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form">
+        <div class="top">
+          <p>Sign-In</p>
+        </div>
+        <div class="center">
+          <div>
+            <label>Name</label>
+            <input
+              class="details-input"
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </div>
+          <div>
+            <label>Password</label>
+            <input
+              class="details-input"
+              type="text"
+              name="password"
+              id="password"
+              placeholder="Enter Your Password"
+            />
+          </div>
+          <div class="btn">
+            <button onclick="myFunction()">Sign-In</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script>
+      function myFunction() {
+        alert("You are now signed In!");
+      }
+    </script>
+  </body>
+</html>
